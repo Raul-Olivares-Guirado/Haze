@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Platformer.Gameplay;
 using UnityEngine;
 
 public class PlayerAtack : MonoBehaviour
@@ -58,7 +59,8 @@ public class PlayerAtack : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-
+            collision.gameObject.GetComponent<HitDamageTest>().LosseLifeAndHit();
+            //_Collider2D.enabled = false;
         }
     }
 }
