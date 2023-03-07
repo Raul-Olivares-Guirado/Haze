@@ -42,6 +42,10 @@ namespace Platformer.Mechanics
 
         public Bounds Bounds => collider2d.bounds;
 
+        //Variables para agacharse
+        public bool crouch = false;
+        int crouchID;
+
         void Awake()
         {
             health = GetComponent<Health>();
@@ -49,6 +53,7 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            crouchID = Animator.StringToHash("crouch");
         }
 
         protected override void Update()
@@ -70,6 +75,8 @@ namespace Platformer.Mechanics
             }
             UpdateJumpState();
             base.Update();
+
+            Crouched();
         }
 
         void UpdateJumpState()
@@ -136,6 +143,28 @@ namespace Platformer.Mechanics
             Jumping,
             InFlight,
             Landed
+        }
+
+        //Metodo para agacharse
+        void Crouched()
+        {
+            move.y = Input.GetAxis("Vertical");
+
+            //Cuando no estemos en el suelo salimos del estado de agacharse
+            //Lo quito para que pueda agacharse mientras salta
+            //if(!IsGrounded) 
+               // return;
+
+            if (move.y < 0)
+            {
+                crouch = true;
+            }
+            else
+            {
+                crouch = false;
+            }
+
+            animator.SetBool(crouchID, crouch);
         }
     }
 }
