@@ -46,8 +46,8 @@ public class PlayerAtack : MonoBehaviour
     public void Attack()
     {
         animator.Play("AttackSword");
-        //_Collider2D.enabled = true;
-        //Invoke("DisableAttack", 0.5f);
+        _Collider2D.enabled = true;
+        Invoke("DisableAttack", 0.5f);
     }
 
     private void DisableAttack()
@@ -60,7 +60,7 @@ public class PlayerAtack : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             collision.gameObject.GetComponent<HitDamageTest>().LosseLifeAndHit();
-            //_Collider2D.enabled = false;
+            _Collider2D.enabled = false;
         }
     }
 }
