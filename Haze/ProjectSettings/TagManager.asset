@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - haze
   - Water
   - UI
   - 
@@ -39,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: haze1
+    uniqueID: 3817365863
+    locked: 0
+  - name: haze2
+    uniqueID: 2328730127
+    locked: 0
+  - name: haze3
+    uniqueID: 1964052869
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
