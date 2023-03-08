@@ -57,9 +57,11 @@ public class PlayerAtack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+ 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<HitDamageTest>().LosseLifeAndHit();
+            //collision.gameObject.GetComponent<PlayerEnemyCollision>();
+            Destroy(collision.gameObject);
             _Collider2D.enabled = false;
         }
     }

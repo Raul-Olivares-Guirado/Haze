@@ -5,7 +5,7 @@ using UnityEngine;
 public class JumpDamage : MonoBehaviour
 {
 
-    public Collider2D collider2D;
+    //public Collider2D collider2D;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     public GameObject destroyParticle;
@@ -16,7 +16,7 @@ public class JumpDamage : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * jumpForce);
+            collision.gameObject.GetComponent<Rigidbody2D>();
 
             LosseLifeAndHit();
             CheckLife();
