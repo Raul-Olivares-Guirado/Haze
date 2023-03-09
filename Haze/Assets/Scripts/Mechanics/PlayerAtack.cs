@@ -42,28 +42,27 @@ public class PlayerAtack : MonoBehaviour
 
     }
 
-
+    //Gestiona el ataque del enemigo
     public void Attack()
     {
         animator.Play("AttackSword");
-        _Collider2D.enabled = true;
+        //Activa el collider cuando ataca
+        _Collider2D.enabled = true; 
+        //Desactiva el collider al atacar en 0.5 seg
         Invoke("DisableAttack", 0.5f);
     }
-
+    //Desactiva el ataque que luego hacemos un invoke
     private void DisableAttack()
     {
         _Collider2D.enabled = false;
     }
-
+    //Gestiona la colision de la espada con el enemigo
     private void OnTriggerEnter2D(Collider2D collision)
     {
  
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<LifesEnemy>().HittAndLife();
-            //animatorEnemy.Play("Baddie-Death");
-            //Destroy(collision.gameObject);
-            _Collider2D.enabled = false;
+            collision.gameObject.GetComponent<LifesEnemy>().HittAndLife(); //LLama al componente de la clase LifesEnemy pra usar su metodo de restar las vida y destruirlo
         }
     }
 }
