@@ -9,7 +9,7 @@ public class JumpDamage : MonoBehaviour
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     public GameObject destroyParticle;
-    public float jumpForce = 2.5f;
+    //public float jumpForce = 2.5f;
     public int lifes = 1;
 
     private void OnCollisionEnter2D(Collision2D collision)

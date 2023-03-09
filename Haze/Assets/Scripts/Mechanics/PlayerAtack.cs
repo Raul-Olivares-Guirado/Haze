@@ -11,7 +11,6 @@ public class PlayerAtack : MonoBehaviour
     private BoxCollider2D _Collider2D;
 
     public Animator animator;
-    public Animator animatorEnemy;
     //Referencia para mover la espada y flipearla en x
     public GameObject swordParent;
 
