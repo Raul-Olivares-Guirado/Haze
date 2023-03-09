@@ -146,14 +146,14 @@ namespace Platformer.Mechanics
         }
 
         //Metodo para agacharse
-        void Crouched()
+        public void Crouched()
         {
             move.y = Input.GetAxis("Vertical");
 
             //Cuando no estemos en el suelo salimos del estado de agacharse
             //Lo quito para que pueda agacharse mientras salta
-            //if(!IsGrounded) 
-               // return;
+            if(!IsGrounded) 
+                return;
 
             if (move.y < 0)
             {

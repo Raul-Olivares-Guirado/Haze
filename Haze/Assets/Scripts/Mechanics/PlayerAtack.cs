@@ -11,6 +11,7 @@ public class PlayerAtack : MonoBehaviour
     private BoxCollider2D _Collider2D;
 
     public Animator animator;
+    public Animator animatorEnemy;
     //Referencia para mover la espada y flipearla en x
     public GameObject swordParent;
 
@@ -60,8 +61,9 @@ public class PlayerAtack : MonoBehaviour
  
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            //collision.gameObject.GetComponent<PlayerEnemyCollision>();
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<LifesEnemy>().HittAndLife();
+            //animatorEnemy.Play("Baddie-Death");
+            //Destroy(collision.gameObject);
             _Collider2D.enabled = false;
         }
     }
