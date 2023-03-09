@@ -5,10 +5,10 @@ using UnityEngine;
 public class JumpDamage : MonoBehaviour
 {
 
-    //public Collider2D collider2D;
+    //public Collider2D _collider2D;
     public Animator animator;
-    public SpriteRenderer spriteRenderer;
-    public GameObject destroyParticle;
+    //public SpriteRenderer spriteRenderer;
+    //public GameObject destroyParticle;
     //public float jumpForce = 2.5f;
     public int lifes = 1;
 
@@ -17,26 +17,28 @@ public class JumpDamage : MonoBehaviour
         if (collision.transform.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Rigidbody2D>();
-
-            LosseLifeAndHit();
-            CheckLife();
+            //destroyParticle.SetActive(true);
+            animator.Play("Baddie-Death");
+            Invoke("EnemyDie", 0.1f);
+            //LosseLifeAndHit();
+            //CheckLife();
         }
     }
 
     public void LosseLifeAndHit()
     {
         lifes--;
-        animator.Play("EnemyHurt");
+        //animator.Play("EnemyHurt");
     }
 
     public void CheckLife()
     {
         if (lifes == 0)
         {
-            animator.Play("EnemyDeath");
+            //animator.Play("EnemyDeath");
             //destroyParticle.SetActive(true);
-           // spriteRenderer.enabled = false;
-            //Invoke("EnemyDie", 0.2f);
+            //spriteRenderer.enabled = false;
+            Invoke("EnemyDie", 0.2f);
         }
     }
 
@@ -45,15 +47,4 @@ public class JumpDamage : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
