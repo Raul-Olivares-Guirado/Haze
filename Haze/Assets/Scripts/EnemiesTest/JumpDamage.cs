@@ -10,7 +10,7 @@ public class JumpDamage : MonoBehaviour
     //public SpriteRenderer spriteRenderer;
     //public GameObject destroyParticle;
     //public float jumpForce = 2.5f;
-    public int lifes = 1;
+    //public int lifes = 1;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,7 +18,7 @@ public class JumpDamage : MonoBehaviour
         {
             collision.gameObject.GetComponent<Rigidbody2D>();
             //destroyParticle.SetActive(true);
-            animator.Play("Baddie-Death");
+            animator.Play("Baddie-Hurt");
             Invoke("EnemyDie", 0.1f);
             //LosseLifeAndHit();
             //CheckLife();
@@ -27,19 +27,19 @@ public class JumpDamage : MonoBehaviour
 
     public void LosseLifeAndHit()
     {
-        lifes--;
+        //lifes--;
         //animator.Play("EnemyHurt");
     }
 
     public void CheckLife()
     {
-        if (lifes == 0)
+        /*if (lifes == 0)
         {
             //animator.Play("EnemyDeath");
             //destroyParticle.SetActive(true);
             //spriteRenderer.enabled = false;
             Invoke("EnemyDie", 0.2f);
-        }
+        }*/
     }
 
     public void EnemyDie()

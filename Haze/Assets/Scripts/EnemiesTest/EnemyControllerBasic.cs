@@ -34,13 +34,14 @@ public class EnemyControllerBasic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(CheckEnemyMovement());
+        //StartCoroutine(CheckEnemyMovement());
 
         EnemyMovement();
     }
 
     public void EnemyMovement()
     {
+        animator.Play("Baddie-Run");
         //Movimiento del enemigo en los patrones establecidos
         transform.position = Vector2.MoveTowards(transform.position, movement[_i].transform.position, speed * Time.deltaTime);
 
@@ -70,7 +71,7 @@ public class EnemyControllerBasic : MonoBehaviour
     //Corrutina con la que en vez de ejecutar la accion cada frame lo haga por un tiempo
     //Evita que cada frame el codigo este preguntando la posicion del enemigo
     //Buscamos saber cuando flipear el sprite del enemigo
-    IEnumerator CheckEnemyMovement()
+    /*IEnumerator CheckEnemyMovement()
     {
         _actualPos = transform.position;
 
@@ -91,5 +92,5 @@ public class EnemyControllerBasic : MonoBehaviour
         {
             animator.SetBool("Idle", true);
         }
-    }
+    }*/
 }
