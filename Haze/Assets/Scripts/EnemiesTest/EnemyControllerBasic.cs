@@ -41,7 +41,7 @@ public class EnemyControllerBasic : MonoBehaviour
 
     public void EnemyMovement()
     {
-        animator.Play("Baddie-Run");
+
         //Movimiento del enemigo en los patrones establecidos
         transform.position = Vector2.MoveTowards(transform.position, movement[_i].transform.position, speed * Time.deltaTime);
 
