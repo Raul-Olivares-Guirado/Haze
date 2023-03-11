@@ -13,6 +13,11 @@ namespace Platformer.Mechanics
     [RequireComponent(typeof(Collider2D))]
     public class TokenInstance : MonoBehaviour
     {
+        //GameObjects que es modifiquen depenent del token que agafa el jugador
+        public GameObject AddPlatform;
+        public GameObject BreakPlatform;
+        public GameObject DeleteHaze;
+
         public AudioClip tokenCollectAudio;
         [Tooltip("If true, animation will start at a random position in the sequence.")]
         public bool randomAnimationStartTime = false;
@@ -57,6 +62,12 @@ namespace Platformer.Mechanics
             var ev = Schedule<PlayerTokenCollision>();
             ev.token = this;
             ev.player = player;
+
+            //Depenent del token que agafi el jugador alguns GameObjects seran activats o desactivats
+            AddPlatform.SetActive(true);
+            BreakPlatform.SetActive(false);
+            DeleteHaze.SetActive(false);
+
         }
     }
 }
