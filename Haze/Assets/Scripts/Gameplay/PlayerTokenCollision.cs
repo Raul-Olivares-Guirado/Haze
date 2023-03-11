@@ -13,12 +13,14 @@ namespace Platformer.Gameplay
     {
         public PlayerController player;
         public TokenInstance token;
-
+        public GameObject Platform_R1;
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public override void Execute()
         {
             AudioSource.PlayClipAtPoint(token.tokenCollectAudio, token.transform.position);
         }
+
+
     }
 }

@@ -36,6 +36,7 @@ namespace Platformer.Mechanics
                 tokens[i].tokenIndex = i;
                 tokens[i].controller = this;
             }
+
         }
 
         void Update()
