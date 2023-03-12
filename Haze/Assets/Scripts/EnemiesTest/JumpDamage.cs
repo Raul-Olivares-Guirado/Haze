@@ -5,7 +5,7 @@ using UnityEngine;
 public class JumpDamage : MonoBehaviour
 {
 
-    //public Collider2D _collider2D;
+    public Collider2D _collider2D;
     public Animator animator;
     //public SpriteRenderer spriteRenderer;
     //public GameObject destroyParticle;
@@ -16,7 +16,7 @@ public class JumpDamage : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>();
+            //collision.gameObject.GetComponent<BoxCollider2D>();
             //destroyParticle.SetActive(true);
             animator.Play("Baddie-Hurt");
             Invoke("EnemyDie", 0.1f);

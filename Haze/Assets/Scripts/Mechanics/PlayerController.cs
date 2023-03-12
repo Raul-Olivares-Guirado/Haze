@@ -69,6 +69,13 @@ namespace Platformer.Mechanics
                     Schedule<PlayerStopJump>().player = this;
                 }
             }
+            //Prueba ataque olvido
+            else if (!controlEnabled)
+            {
+                move.x = Input.GetAxis("Vertical");
+   
+                move.y = Input.GetAxis("Horizontal");
+            }
             else
             {
                 move.x = 0;
