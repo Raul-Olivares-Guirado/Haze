@@ -6,9 +6,18 @@ using Platformer.Mechanics;
 
 public class AttackOlivido : MonoBehaviour
 {
-     public float timer = 5f;
+    [SerializeField]
+    private TimerController timerController;
 
-    public TextMeshProUGUI timerText;
+    public Animator animator;
+
+    public Collider2D _Collider2D;
+
+    //public float timer = 5f;
+
+    //public bool start = false;
+
+    //public TextMeshProUGUI timerText;
 
     public Collider2D _collider;
 
@@ -16,9 +25,11 @@ public class AttackOlivido : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            timerController.EnabledTimer();
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = false;
-            InvokeRepeating("Timer", 0f, 1f);
+            //InvokeRepeating("Timer", 0f, 1f);
         }
+        
     }
 
     // Start is called before the first frame update
@@ -30,20 +41,25 @@ public class AttackOlivido : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer < 0f)
-        {
-            //timer = 0f;
-            timerText.enabled = false;
-           
-        }
         //timer -= Time.deltaTime;
 
         //timerText.text = "" + timer.ToString("f0");
     }
 
-    public void Timer()
+    /*public void Timer()
     {
         timer--;
         timerText.text = "" + timer.ToString("f0");
+    }*/
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
+
+    public void OlvidoAttack()
+    {
+        animator.Play("Player-Hurt");
+    }
+
 }

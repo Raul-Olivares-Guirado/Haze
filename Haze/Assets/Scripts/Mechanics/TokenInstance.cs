@@ -43,11 +43,12 @@ namespace Platformer.Mechanics
             sprites = idleAnimation;
         }
 
-        void OnTriggerEnter2D(Collider2D other)
+        void OnTriggerEnter2D(Collider2D collision)
         {
             //only exectue OnPlayerEnter if the player collides with this token.
-            var player = other.gameObject.GetComponent<PlayerController>();
+            var player = collision.gameObject.GetComponent<PlayerController>();
             if (player != null) OnPlayerEnter(player);
+
         }
 
         void OnPlayerEnter(PlayerController player)
@@ -69,5 +70,7 @@ namespace Platformer.Mechanics
             DeleteHaze.SetActive(false);
 
         }
+
+        
     }
 }
