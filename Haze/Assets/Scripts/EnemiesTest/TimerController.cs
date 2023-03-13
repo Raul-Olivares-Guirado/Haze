@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using Platformer.Mechanics;
 
 public class TimerController : MonoBehaviour
 {
@@ -12,8 +12,7 @@ public class TimerController : MonoBehaviour
     public bool timeActive = false;
 
     public TextMeshProUGUI time;
-    [SerializeField]
-    private PlayerLifes playerLifes;
+    public TakeDamage takeDamage;
 
     // Start is called before the first frame update
     void Start()
@@ -44,10 +43,11 @@ public class TimerController : MonoBehaviour
             ChangeTimer(false);
             Debug.Log("Lose / Death / Anything");
             time.enabled = false;
+            takeDamage.HittAndLife();
         }
     }
 
-    private void ChangeTimer(bool estate)
+    public void ChangeTimer(bool estate)
     {
         timeActive = estate;
     }

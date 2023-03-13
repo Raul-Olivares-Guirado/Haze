@@ -4,19 +4,25 @@ using UnityEngine;
 
 public class TakeDamage : MonoBehaviour
 {
-  
-    private void OnCollisionEnter2D(Collision2D collision)
+    public Animator animator;
+    //public SpriteRenderer spriteRenderer;
+    public int lifes = 1;
+
+    public void HittAndLife()
     {
-        if (collision.transform.CompareTag("Player"))
+        lifes--;
+        animator.Play("Player-Hurt");
+
+        if (lifes == 0)
         {
-            Debug.Log("Damage!");
-            Destroy(collision.gameObject);
-           
+            animator.Play("Player-Death");
+            Invoke("PlayerDie", 1f);
         }
     }
 
-
-
-
+    public void PlayerDie()
+    {
+        Destroy(gameObject);
+    }
 
 }

@@ -16,8 +16,7 @@ public class JumpDamage : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            //collision.gameObject.GetComponent<BoxCollider2D>();
-            //destroyParticle.SetActive(true);
+            //collision.gameObject.GetComponent<Rigidbody2D>();
             animator.Play("Baddie-Hurt");
             Invoke("EnemyDie", 0.1f);
             //LosseLifeAndHit();

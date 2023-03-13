@@ -13,27 +13,15 @@ public class AttackOlivido : MonoBehaviour
 
     public Collider2D _Collider2D;
 
-
+    public GameObject OlvidoLayer;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = false;
-            
+            OlvidoLayer.SetActive(true);
         }
         
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void Destroy()
