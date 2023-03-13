@@ -41,6 +41,7 @@ public class AttackOlivido : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //timer -= Time.deltaTime;
 
         //timerText.text = "" + timer.ToString("f0");
@@ -55,11 +56,6 @@ public class AttackOlivido : MonoBehaviour
     public void Destroy()
     {
         Destroy(gameObject);
-    }
-
-    public void OlvidoAttack()
-    {
-        animator.Play("Player-Hurt");
     }
 
 }

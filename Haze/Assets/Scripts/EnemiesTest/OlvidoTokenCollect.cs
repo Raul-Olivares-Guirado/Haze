@@ -17,7 +17,7 @@ public class OlvidoTokenCollect : MonoBehaviour
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = true;
             timerController.time.enabled = false;
             Destroy(gameObject);
-            collision.gameObject.GetComponent<AttackOlivido>().Destroy();
+            //collision.gameObject.GetComponent<AttackOlivido>().Destroy();
             //InvokeRepeating("Timer", 0f, 1f);
         }
     }

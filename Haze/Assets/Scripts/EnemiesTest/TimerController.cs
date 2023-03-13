@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class TimerController : MonoBehaviour
 {
     [SerializeField]
     private float _timeMax;
-    private float _timeActual;
+    public float _timeActual;
     public bool timeActive = false;
 
     public TextMeshProUGUI time;
+    [SerializeField]
+    private PlayerLifes playerLifes;
 
     // Start is called before the first frame update
     void Start()
