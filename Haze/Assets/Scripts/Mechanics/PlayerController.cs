@@ -161,14 +161,40 @@ namespace Platformer.Mechanics
         //Metodo para agacharse
         void Crouched()
         {
-            //move.y = Input.GetAxis("Vertical");
-
             //Cuando no estemos en el suelo salimos del estado de agacharse
             //Lo quito para que pueda agacharse mientras salta
             if(!IsGrounded) 
                 return;
 
-            /*if (move.y < 0)
+            if (controlEnabled == true)
+            {
+                move.y = Input.GetAxis("Vertical");
+                if(move.y < 0)
+                {
+                    crouch = true;
+                }
+                else
+                {
+                    crouch = false;
+                }
+            }
+
+
+            if (controlEnabled == false)
+            {
+                move.x = Input.GetAxis("Horizontal");
+                if (move.x < 0)
+                {
+                    crouch = true;
+                }
+                else
+                {
+                    crouch = false;
+                }
+            }
+
+
+            /*if (Input.GetKey("left shift"))
             {
                 crouch = true;
             }
@@ -176,15 +202,6 @@ namespace Platformer.Mechanics
             {
                 crouch = false;
             }*/
-
-            if (Input.GetKey("left shift"))
-            {
-                crouch = true;
-            }
-            else
-            {
-                crouch = false;
-            }
             animator.SetBool(crouchID, crouch);
         }
     }
