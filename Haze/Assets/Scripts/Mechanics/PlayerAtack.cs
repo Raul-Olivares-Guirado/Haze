@@ -21,6 +21,7 @@ public class PlayerAtack : MonoBehaviour
         _PlayerSpriteRenderer = transform.root.GetComponent<SpriteRenderer>();
         //Coge el collider de la espada
         _Collider2D = GetComponent<BoxCollider2D>();
+        _Collider2D.enabled = false;
     }
 
     // Update is called once per frame
@@ -49,10 +50,10 @@ public class PlayerAtack : MonoBehaviour
         //Activa el collider cuando ataca
         _Collider2D.enabled = true; 
         //Desactiva el collider al atacar en 0.5 seg
-        Invoke("DisableAttack", 0.5f);
+        Invoke("DisableAttack", 0.1f);
     }
     //Desactiva el ataque que luego hacemos un invoke
-    private void DisableAttack()
+    public void DisableAttack()
     {
         _Collider2D.enabled = false;
     }
@@ -65,4 +66,5 @@ public class PlayerAtack : MonoBehaviour
             collision.gameObject.GetComponent<LifesEnemy>().HittAndLife(); //LLama al componente de la clase LifesEnemy pra usar su metodo de restar las vida y destruirlo
         }
     }
+
 }

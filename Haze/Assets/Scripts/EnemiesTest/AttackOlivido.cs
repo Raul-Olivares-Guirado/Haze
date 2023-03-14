@@ -6,8 +6,6 @@ using Platformer.Mechanics;
 
 public class AttackOlivido : MonoBehaviour
 {
-    [SerializeField]
-    private TimerController timerController;
 
     public Animator animator;
 
