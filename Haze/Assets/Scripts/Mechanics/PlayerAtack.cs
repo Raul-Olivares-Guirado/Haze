@@ -31,7 +31,7 @@ public class PlayerAtack : MonoBehaviour
         {
             Attack();
         }
-
+        //Hace Flip al sprite de la espada
         if (_PlayerSpriteRenderer.flipX == true)
         {
             swordParent.transform.rotation = Quaternion.Euler(0, -180, 0);
@@ -63,7 +63,8 @@ public class PlayerAtack : MonoBehaviour
  
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<LifesEnemy>().HittAndLife(); //LLama al componente de la clase LifesEnemy pra usar su metodo de restar las vida y destruirlo
+            //LLama al componente de la clase LifesEnemy pra usar su metodo de restar las vida y destruirlo
+            collision.gameObject.GetComponent<LifesEnemy>().HittAndLife(); 
         }
     }
 

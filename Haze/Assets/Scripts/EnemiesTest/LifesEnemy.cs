@@ -8,11 +8,13 @@ public class LifesEnemy : MonoBehaviour
     //public SpriteRenderer spriteRenderer;
     public int lifes = 1;
 
+    //Metode que resta vidas
     public void HittAndLife()
     {
         lifes--;
         animator.Play("Baddie-Hurt");
-
+        
+        //Cuando las vidas llegan a 0 muere
         if (lifes == 0)
         {
             animator.Play("Baddie-Death");
@@ -20,6 +22,7 @@ public class LifesEnemy : MonoBehaviour
         }
     }
 
+    //Metodo que elimina el game object pero que lo usare con un invoke
     public void EnemyDie()
     {
         Destroy(gameObject);

@@ -162,7 +162,7 @@ namespace Platformer.Mechanics
         void Crouched()
         {
             //Cuando no estemos en el suelo salimos del estado de agacharse
-            //Lo quito para que pueda agacharse mientras salta
+            //Se quita para que pueda agacharse mientras salta o no para q este limitado el movimiento
             if(!IsGrounded) 
                 return;
 
