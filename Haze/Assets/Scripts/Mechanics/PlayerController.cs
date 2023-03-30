@@ -63,11 +63,12 @@ namespace Platformer.Mechanics
                 move.x = Input.GetAxis("Horizontal");
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
                     jumpState = JumpState.PrepareToJump;
-                else if (Input.GetButtonUp("Jump"))
+                //Elimino esta parte para que el jugador haga el salto completo
+                /*else if (Input.GetButtonUp("Jump"))
                 {
                     stopJump = true;
                     Schedule<PlayerStopJump>().player = this;
-                }
+                }*/
             }
             //Prueba ataque olvido
             else if (!controlEnabled)
@@ -165,7 +166,7 @@ namespace Platformer.Mechanics
             //Lo quito para que pueda agacharse mientras salta
             if(!IsGrounded) 
                 return;
-
+            // Cuando los controles no esten invertidos se agahca con s o flecha abajo
             if (controlEnabled == true)
             {
                 move.y = Input.GetAxis("Vertical");
@@ -179,7 +180,7 @@ namespace Platformer.Mechanics
                 }
             }
 
-
+            // Cuando los controles esten invertidos se agahca con a o flecha derecha
             if (controlEnabled == false)
             {
                 move.x = Input.GetAxis("Horizontal");
