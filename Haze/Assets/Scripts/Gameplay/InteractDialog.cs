@@ -32,7 +32,7 @@ public class InteractDialog : MonoBehaviour
             {
                 StartDialogue();
             }
-            //Si el texto esta mostrando la conversacion completa, pasa a la siguiente linea
+            // Si el texto esta mostrando la conversacion completa, pasa a la siguiente linea
             else if (dialogueText.text == dialogText[lineIndex]) 
             {
                 NextLineDialogue();
