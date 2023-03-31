@@ -17,6 +17,9 @@ public class InteractDialog : MonoBehaviour
     //Texto que mostraremos
     [SerializeField]
     private TMP_Text dialogueText;
+    //Sprite de la tecla de interaccion F
+    [SerializeField]
+    private GameObject keyF;
     //Array con los dialogos
     //TextArea me deja hacer grande la caja para escribir el dialogo
     [SerializeField, TextArea(4,6)]
@@ -53,6 +56,7 @@ public class InteractDialog : MonoBehaviour
         dialogueStart = true;
         dialoguePanel.SetActive(true);
         dialogExclamation.SetActive(false);
+        keyF.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
         StartCoroutine(ShowLine());
@@ -71,6 +75,7 @@ public class InteractDialog : MonoBehaviour
             dialogueStart = false;
             dialoguePanel.SetActive(false);
             dialogExclamation.SetActive(true);
+            keyF.SetActive(true);
             Time.timeScale = 1.0f;
         }
     }
@@ -94,6 +99,7 @@ public class InteractDialog : MonoBehaviour
         {
             playerRange = true;
             dialogExclamation.SetActive(true);
+            keyF.SetActive(true);
             Debug.Log("A entrado, apreta F para ver");
         }
     }
@@ -104,6 +110,7 @@ public class InteractDialog : MonoBehaviour
         {
             playerRange = false;
             dialogExclamation.SetActive(false);
+            keyF.SetActive(false);
             Debug.Log("A salido");
         }
     }
