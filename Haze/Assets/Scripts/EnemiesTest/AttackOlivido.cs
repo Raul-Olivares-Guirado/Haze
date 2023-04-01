@@ -7,22 +7,24 @@ using Platformer.Mechanics;
 public class AttackOlivido : MonoBehaviour
 {
 
-    public Animator animator;
-
     public Collider2D _Collider2D;
 
     public GameObject OlvidoLayer;
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    public Animator animator;
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = false;
             OlvidoLayer.SetActive(true);
+            animator.Play("Baddie-Hurt");
+            Invoke("DestroyEnemy", 0.1f);
         }
-        
     }
 
-    public void Destroy()
+    public void DestroyEnemy()
     {
         Destroy(gameObject);
     }

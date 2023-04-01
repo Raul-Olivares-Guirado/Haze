@@ -7,8 +7,8 @@ public class HazeEnemy : MonoBehaviour
 {
 
     public TimerController timerController;
-    public Health health;
-    private PlayerAtack playerAttack;
+    //public Health health;
+    //private PlayerAtack playerAttack;
 
     
     private void OnTriggerEnter2D(Collider2D collision)

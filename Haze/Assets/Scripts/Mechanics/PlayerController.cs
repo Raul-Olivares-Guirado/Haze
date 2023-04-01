@@ -205,5 +205,6 @@ namespace Platformer.Mechanics
             }*/
             animator.SetBool(crouchID, crouch);
         }
+
     }
 }
