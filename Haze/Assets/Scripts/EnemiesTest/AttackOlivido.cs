@@ -9,7 +9,10 @@ public class AttackOlivido : MonoBehaviour
 
     public Collider2D _Collider2D;
 
+    //Layer de tokens Olvido para revertir los controles
     public GameObject OlvidoLayer;
+    //Layer del objeto entero para destruirlo cuando lo tocamos
+    public GameObject OlvidoEnemy;
 
     public Animator animator;
 
@@ -26,7 +29,7 @@ public class AttackOlivido : MonoBehaviour
 
     public void DestroyEnemy()
     {
-        Destroy(gameObject);
+        Destroy(OlvidoEnemy);
     }
 
 }

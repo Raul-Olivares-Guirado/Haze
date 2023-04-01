@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7039382607266380836}
   - component: {fileID: 3506061727124426323}
   - component: {fileID: 6059964226295440295}
-  - component: {fileID: -219522962946336412}
   - component: {fileID: 6447206598118725470}
+  - component: {fileID: -4431501457939026648}
   m_Layer: 13
   m_Name: Olvido
   m_TagString: Enemy
@@ -261,20 +261,6 @@ MonoBehaviour:
   speed: 2
   startWaitTime: 3
   movement: []
---- !u!114 &-219522962946336412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862112752889363410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e070e4ff2d3f5e043be1031e5c35b02d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Collider2D: {fileID: 0}
-  OlvidoLayer: {fileID: 0}
 --- !u!61 &6447206598118725470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -301,6 +287,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.50298834, y: 0.26036072}
   m_EdgeRadius: 0
+--- !u!114 &-4431501457939026648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2862112752889363410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e078e34c49f9ec148b78fc3a8505f192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider2D: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1 &7184483575595206430
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 882253207136118325}
   - component: {fileID: 6197950550911743725}
   m_Layer: 13
-  m_Name: Jump
+  m_Name: Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,3 +374,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Collider2D: {fileID: 0}
   OlvidoLayer: {fileID: 0}
+  OlvidoEnemy: {fileID: 0}
+  animator: {fileID: 0}
