@@ -16,7 +16,6 @@ public class HazeEnemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             timerController.EnabledTimer();
-            timerController.time.enabled = true;
             
         }
     }
@@ -26,20 +25,8 @@ public class HazeEnemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             timerController.DisabledTimer();
-            timerController.time.enabled = false;
-            
+
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

@@ -44,6 +44,7 @@ public class TimerController : MonoBehaviour
             Debug.Log("Lose / Death / Anything");
             time.enabled = false;
             takeDamage.HittAndLife();
+            EnabledTimer();
         }
     }
 
@@ -54,6 +55,7 @@ public class TimerController : MonoBehaviour
 
     public void EnabledTimer()
     {
+        time.enabled = true;
         _timeActual = _timeMax;
         time.text = "" + _timeMax.ToString("f0");
         ChangeTimer(true);
@@ -62,5 +64,6 @@ public class TimerController : MonoBehaviour
     public void DisabledTimer()
     {
         ChangeTimer(false);
+        time.enabled = false;
     }
 }
