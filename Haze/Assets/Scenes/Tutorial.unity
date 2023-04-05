@@ -1510,6 +1510,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009130065698333722, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009130065698333722, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b,
+        type: 3}
       propertyPath: m_RenderMode
       value: 1
       objectReference: {fileID: 0}
@@ -1522,6 +1527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009130065698333723, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4009130065698333723, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b,
         type: 3}

@@ -9,7 +9,7 @@ namespace Platformer.UI
     /// </summary>
     public class MainUIController : MonoBehaviour
     {
-        /*public GameObject[] panels;
+        public GameObject[] panels;
 
         public void SetActivePanel(int index)
         {
@@ -19,11 +19,11 @@ namespace Platformer.UI
                 var g = panels[i];
                 if (g.activeSelf != active) g.SetActive(active);
             }
-        }*/
+        }
 
         void OnEnable()
         {
-            //SetActivePanel(0);
+            SetActivePanel(0);
         }
 
         //Provisional para salir del juego
