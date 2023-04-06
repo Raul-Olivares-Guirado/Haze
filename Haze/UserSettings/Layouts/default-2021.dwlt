@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 70
+  controlID: 150
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 102
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -15.206089, y: 3.3532174, z: -0.8379539}
     speed: 2
-    m_Value: {x: -15.25034, y: 3.6235652, z: -0.8410308}
+    m_Value: {x: -15.206089, y: 3.3532174, z: -0.8379539}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 6.5297546
     speed: 2
-    m_Value: 6.8374395
+    m_Value: 6.5297546
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -777,7 +777,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32dbffffe6dbfffffadfffff18fbffff
+      m_ExpandedIDs: 18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -844,22 +844,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Gameplay
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Gameplay
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\AADocumentos\AIOC\Projecte Final\Projecte\Haze\Haze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de760000
-    m_LastClickedID: 30430
-    m_ExpandedIDs: 0000000096760000987600009a7600009c7600009e760000a0760000a2760000a4760000
+    m_SelectedIDs: 62780000
+    m_LastClickedID: 30818
+    m_ExpandedIDs: 0000000096760000987600009a7600009c7600009e760000a0760000a2760000a4760000e0760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0

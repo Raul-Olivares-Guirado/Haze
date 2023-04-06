@@ -25,16 +25,6 @@ public class JumpDamage : MonoBehaviour
         }
     }
 
-    public void LosseLifeAndHit()
-    {
-
-    }
-
-    public void CheckLife()
-    {
-
-    }
-
     public void EnemyDie()
     {
         Destroy(gameObject);
