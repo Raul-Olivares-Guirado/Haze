@@ -18919,7 +18919,7 @@ MonoBehaviour:
   dialogueText: {fileID: 414296424}
   keyF: {fileID: 55283460}
   dialogText:
-  - 'Senyal: Com veus la boira t''impideix pasar per aquesta zona.'
+  - 'Senyal: Com veus la boira t''impideix passar per aquesta zona.'
   - "Senyal: Puja per les plataformes fins trobar el record que necessites per recordar
     la seg\xFCent zona."
   - "Senyal: Ves amb compte amb els enemics que et pots trobar al teu cam\xED!!"
