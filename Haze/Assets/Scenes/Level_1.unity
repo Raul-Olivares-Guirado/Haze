@@ -13300,7 +13300,7 @@ MonoBehaviour:
   dialogueText: {fileID: 414296424}
   keyF: {fileID: 1286007105}
   dialogText:
-  - "Senyal: Ben fet, ja nom\xE9s et queda un \xF9ltim record."
+  - "Senyal: Ben fet, ja nom\xE9s et queda un \xFAltim record."
   - "Senyal: Continua superant els enemics que trobar\xE0s."
   - "Senyal: \xC0nims!!!"
 --- !u!212 &1468714846
