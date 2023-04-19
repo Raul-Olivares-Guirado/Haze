@@ -8,10 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ead5e4992097041449961884f16ef1e5
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: b70e394ef4991f44a8493806a64ea29f
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 358c86e8881f11f458d5edd499cf960f
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5dabf220442c0ad42837fb4187d26d88
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: d6e8d8b150b4fc74980f1eaed613a540
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 8235096efad99ae409290af1502afd3f
   m_configObjects: {}
