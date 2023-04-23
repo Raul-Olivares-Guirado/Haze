@@ -1,4 +1,5 @@
 using System.Collections;
+using Platformer.Mechanics;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -77,6 +78,7 @@ public class InteractDialog : MonoBehaviour
             dialogExclamation.SetActive(true);
             keyF.SetActive(true);
             Time.timeScale = 1.0f;
+            
         }
     }
 
