@@ -8,7 +8,8 @@ public class TakeDamage : MonoBehaviour
     public Animator animator;
     //public SpriteRenderer spriteRenderer;
     public int lifes = 1;
-    public SceneLoad _gO;
+    [SerializeField]
+    private SceneLoad _gO;
     public void HittAndLife()
     {
         lifes--;
