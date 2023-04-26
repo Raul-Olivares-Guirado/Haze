@@ -6,7 +6,6 @@ using UnityEngine;
 public class TakeDamage : MonoBehaviour
 {
     public Animator animator;
-    //public SpriteRenderer spriteRenderer;
     public int lifes = 1;
     [SerializeField]
     private SceneLoad _gO;

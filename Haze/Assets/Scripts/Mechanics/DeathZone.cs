@@ -12,6 +12,7 @@ namespace Platformer.Mechanics
     /// </summary>
     public class DeathZone : MonoBehaviour
     {
+
         void OnTriggerEnter2D(Collider2D collider)
         {
             var p = collider.gameObject.GetComponent<PlayerController>();
@@ -20,7 +21,6 @@ namespace Platformer.Mechanics
                 var ev = Schedule<PlayerEnteredDeathZone>();
                 ev.deathzone = this;
             }
-
             collider.gameObject.GetComponent<TakeDamage>().HittAndLife();
         }
     }

@@ -194,15 +194,6 @@ namespace Platformer.Mechanics
                 }
             }
 
-
-            /*if (Input.GetKey("left shift"))
-            {
-                crouch = true;
-            }
-            else
-            {
-                crouch = false;
-            }*/
             animator.SetBool(crouchID, crouch);
         }
 
