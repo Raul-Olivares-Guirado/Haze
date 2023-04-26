@@ -43,13 +43,13 @@ public class SceneLoad : MonoBehaviour
     }
     public void GameOver()
     {
-        DelayedLoadLevel(_sceneIndex[3], sceneLoadDelay);
+        DelayedLoadLevel(_sceneIndex[4], sceneLoadDelay);
         FadeOut();
     }
 
     public void Victory()
     {
-       DelayedLoadLevel(_sceneIndex[4], sceneLoadDelay);
+       DelayedLoadLevel(_sceneIndex[3], sceneLoadDelay);
         FadeOut();
     }
 

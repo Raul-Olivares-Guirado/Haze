@@ -18,7 +18,6 @@ public class TakeDamage : MonoBehaviour
         {
             animator.Play("Player-Death");
             Invoke("PlayerDie", 1f);
-            
         }
     }
 
