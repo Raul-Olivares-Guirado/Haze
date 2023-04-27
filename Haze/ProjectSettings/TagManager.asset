@@ -5,12 +5,21 @@ TagManager:
   serializedVersion: 2
   tags:
   - TutorialRequirement
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - haze
+  - 
   - Water
+  - UI
+  - Background
+  - Cloud
+  - Environment
+  - Platform
+  - Enemy
+  - Player
+  - Token
   - UI
   - 
   - 
@@ -30,15 +39,19 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2214117407
+    locked: 0
+  - name: Cloud
+    uniqueID: 3212449549
+    locked: 0
+  - name: Environment
+    uniqueID: 2909936697
+    locked: 0
   - name: haze1
     uniqueID: 3817365863
     locked: 0
@@ -48,6 +61,18 @@ TagManager:
   - name: haze3
     uniqueID: 1964052869
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Platform
+    uniqueID: 2811446001
+    locked: 0
+  - name: Enemy
+    uniqueID: 2912224641
+    locked: 0
+  - name: Player
+    uniqueID: 3135437053
+    locked: 0
+  - name: Token
+    uniqueID: 3520190795
+    locked: 0
+  - name: UI
+    uniqueID: 2421492571
     locked: 0
