@@ -381,6 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &34301918
 MonoBehaviour:
@@ -1753,7 +1754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!114 &72676050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2751,7 +2752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!1 &249225598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +2951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &269915350
 MonoBehaviour:
@@ -3550,6 +3552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &333495783
 MonoBehaviour:
@@ -5454,7 +5457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!1 &609718526
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,6 +7433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &811679449
 MonoBehaviour:
@@ -8306,6 +8310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &914524606
 MonoBehaviour:
@@ -9487,7 +9492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!114 &993674613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10105,6 +10110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1157168832
 MonoBehaviour:
@@ -10947,6 +10953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1246008227
 MonoBehaviour:
@@ -11635,6 +11642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1278056743
 MonoBehaviour:
@@ -12104,7 +12112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!114 &1291385465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12398,6 +12406,11 @@ PrefabInstance:
       propertyPath: movement.Array.data[1]
       value: 
       objectReference: {fileID: 1007558378}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
       propertyPath: animator
@@ -12848,6 +12861,11 @@ PrefabInstance:
       objectReference: {fileID: 1882712350}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 1353580366}
@@ -13106,6 +13124,11 @@ PrefabInstance:
       propertyPath: movement.Array.data[1]
       value: 
       objectReference: {fileID: 1130439145}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
       propertyPath: animator
@@ -13631,6 +13654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1474089695
 MonoBehaviour:
@@ -14709,6 +14733,11 @@ PrefabInstance:
       objectReference: {fileID: 1954559047}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 1536009511}
@@ -15303,7 +15332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!114 &1598263782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16244,6 +16273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1686666615
 MonoBehaviour:
@@ -16771,7 +16801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!114 &1721354278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16884,9 +16914,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5833894e2899f1840ac04193ca462e39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 44634e52c97ce19449b52bb8500b3968, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.039
+  m_Volume: 0.022
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -17426,6 +17456,11 @@ PrefabInstance:
       propertyPath: movement.Array.data[1]
       value: 
       objectReference: {fileID: 4402218}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
       propertyPath: animator
@@ -18233,6 +18268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &1887455534
 MonoBehaviour:
@@ -18845,6 +18881,11 @@ PrefabInstance:
       objectReference: {fileID: 487877703}
     - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
         type: 3}
+      propertyPath: ouch
+      value: 
+      objectReference: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
+    - target: {fileID: 6197950550911743725, guid: 5295c7aca53613248b0333b04e037e7f,
+        type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 1937527399}
@@ -18951,7 +18992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 1213308514}
-  ouch: {fileID: 0}
+  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!1 &1946717923
 GameObject:
   m_ObjectHideFlags: 0
@@ -20512,6 +20553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 0}
   OlvidoLayer: {fileID: 1247615167}
 --- !u!114 &2102851666
 MonoBehaviour:

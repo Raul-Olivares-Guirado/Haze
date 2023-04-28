@@ -911,7 +911,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 625667352}
   BreakPlatform: {fileID: 931734814}
   DeleteHaze: {fileID: 510719802}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 0
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -3785,6 +3785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
   OlvidoLayer: {fileID: 1427534529}
 --- !u!114 &485174615
 MonoBehaviour:
@@ -4157,7 +4158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.48, y: -0.52, z: -10}
+  m_LocalPosition: {x: -18.1, y: -0.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4494,7 +4495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594814268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.37, y: -5.02, z: 0}
+  m_LocalPosition: {x: -41.37, y: -4.79, z: 0}
   m_LocalScale: {x: 0.051919468, y: 0.05356099, z: 0.1791}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4543,7 +4544,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1385030599
   m_SortingLayer: 3
-  m_SortingOrder: -2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 36a05cd4f6f6d6d4a8b3187efbf2fdce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5500,7 +5501,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 2025649473}
   BreakPlatform: {fileID: 777637362}
   DeleteHaze: {fileID: 578384970}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 0
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -6394,11 +6395,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.48
+      value: -18.1
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.52
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7206,6 +7207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
   OlvidoLayer: {fileID: 1427534529}
 --- !u!114 &1041276315
 MonoBehaviour:
@@ -9184,7 +9186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340594162}
   m_LocalRotation: {x: 0, y: -0.99867487, z: 0, w: 0.051464483}
-  m_LocalPosition: {x: 0.8, y: 0.8, z: 0}
+  m_LocalPosition: {x: -0.8, y: -1.4, z: 0.2}
   m_LocalScale: {x: 0.15327762, y: 0.1531469, z: 0.2301}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10603,7 +10605,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 881121507}
   BreakPlatform: {fileID: 1206597463}
   DeleteHaze: {fileID: 906660131}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 0
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -11818,7 +11820,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 44634e52c97ce19449b52bb8500b3968, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cee8c961b2d2c98459402bdfdabe7e4f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.02
   m_Pitch: 1
@@ -12020,6 +12022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
   OlvidoLayer: {fileID: 1427534529}
 --- !u!114 &1838374629
 MonoBehaviour:
@@ -12739,6 +12742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6aac449c2023e49a85462bebc9b69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tokenOlvido: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
   OlvidoLayer: {fileID: 1427534529}
 --- !u!114 &1913205216
 MonoBehaviour:
@@ -13068,7 +13072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946717923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.48, y: -0.52, z: -10}
+  m_LocalPosition: {x: -18.1, y: -0.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
