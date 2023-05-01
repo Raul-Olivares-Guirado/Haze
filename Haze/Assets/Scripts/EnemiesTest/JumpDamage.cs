@@ -18,7 +18,7 @@ public class JumpDamage : MonoBehaviour
                 if (punto.normal.y <= -0.9)
                 {
                     animator.Play("Baddie-Hurt");
-                    Invoke("EnemyDie", 0.1f);
+                    Invoke("EnemyDie", 0.4f);
                 }
             }
 

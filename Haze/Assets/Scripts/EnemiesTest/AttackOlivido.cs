@@ -25,8 +25,8 @@ public class AttackOlivido : MonoBehaviour
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = false;
             collision.gameObject.GetComponent<PlayerController>().audioSource.PlayOneShot(ouch);
             OlvidoLayer.SetActive(true);
-            animator.Play("Baddie-Hurt");
-            Invoke("DestroyEnemy", 0.1f);
+            animator.Play("Baddie-Death");
+            Invoke("DestroyEnemy", 0.5f);
         }
     }
 
