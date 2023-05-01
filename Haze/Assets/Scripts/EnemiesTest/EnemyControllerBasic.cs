@@ -41,12 +41,12 @@ public class EnemyControllerBasic : MonoBehaviour
 
     public void EnemyMovement()
     {
-
+        StartCoroutine(CheckEnemyMovement());
         //Movimiento del enemigo en los patrones establecidos
         transform.position = Vector2.MoveTowards(transform.position, movement[_i].transform.position, speed * Time.deltaTime);
 
         //Calcula la distancia en la que estas de un punto para volver al otro punto
-        if (Vector2.Distance(transform.position, movement[_i].transform.position) < 0.1)
+        if (Vector2.Distance(transform.position, movement[_i].transform.position) < 0.1f)
         {
             if (_waitTime <= 0)
             {
@@ -71,26 +71,23 @@ public class EnemyControllerBasic : MonoBehaviour
     //Corrutina con la que en vez de ejecutar la accion cada frame lo haga por un tiempo
     //Evita que cada frame el codigo este preguntando la posicion del enemigo
     //Buscamos saber cuando flipear el sprite del enemigo
-    /*IEnumerator CheckEnemyMovement()
+    IEnumerator CheckEnemyMovement()
     {
         _actualPos = transform.position;
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         
         if (transform.position.x > _actualPos.x)
         {
             spriteRenderer.flipX = true;
-            animator.SetBool("Idle", false);
+            
         }
         else if (transform.position.x < _actualPos.x)
         {
             spriteRenderer.flipX = false;
-            animator.SetBool("Idle", false);
+            
         }
-        else if(transform.position.x == _actualPos.x)
-        {
-            animator.SetBool("Idle", true);
-        }
-    }*/
+
+    }
 }

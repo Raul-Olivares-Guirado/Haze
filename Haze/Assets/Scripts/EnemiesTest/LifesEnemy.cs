@@ -16,7 +16,7 @@ public class LifesEnemy : MonoBehaviour
         if (lifes == 0)
         {
             animator.Play("Baddie-Death");
-            Invoke("EnemyDie", 0.05f);
+            Invoke("EnemyDie", 0.5f);
         }
     }
 
