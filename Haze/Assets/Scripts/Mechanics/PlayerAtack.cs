@@ -5,6 +5,64 @@ using UnityEngine;
 
 public class PlayerAtack : MonoBehaviour
 {
+    public Transform controlHit;
+
+    public float radiusHit;
+
+    
+
+    private void Update()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Attacking();
+        }
+    }
+
+
+    private void Attacking()
+    {
+        Collider2D[] objects = Physics2D.OverlapCircleAll(controlHit.position, radiusHit);
+
+        foreach (Collider2D collision in objects)
+        {
+            if (collision.CompareTag("Enemy"))
+            {
+                collision.transform.GetComponent<LifesEnemy>().HittAndLife();
+            }
+        }
+
+    }
+    public void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(controlHit.position, radiusHit);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+    /// <summary>
+    /// Ataque con espada
+    /// </summary>
     //Llama al player como referencia para los flip x
     private SpriteRenderer _PlayerSpriteRenderer;
     //Llama al box collider de la espada 
@@ -65,6 +123,6 @@ public class PlayerAtack : MonoBehaviour
         {
             collision.gameObject.GetComponent<LifesEnemy>().HittAndLife(); //LLama al componente de la clase LifesEnemy pra usar su metodo de restar las vida y destruirlo
         }
-    }
+    }*/
 
 }

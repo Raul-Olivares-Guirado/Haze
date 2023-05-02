@@ -1,40 +1,7 @@
 fileFormatVersion: 2
-guid: e1c7748eb9afd4e608ce8f923cf861dc
+guid: d8b8e0a91899da6408e0aea5bc0057c7
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Unity_MC_render_hurt_0
-  - first:
-      213: 21300002
-    second: Unity_MC_render_hurt_1
-  - first:
-      213: 21300004
-    second: Unity_MC_render_hurt_2
-  - first:
-      213: 21300006
-    second: Unity_MC_render_hurt_3
-  - first:
-      213: 21300008
-    second: Unity_MC_render_hurt_4
-  - first:
-      213: 21300010
-    second: Unity_MC_render_hurt_5
-  - first:
-      213: 21300012
-    second: Unity_MC_render_hurt_6
-  - first:
-      213: 21300014
-    second: Unity_MC_render_hurt_7
-  - first:
-      213: 21300016
-    second: Unity_MC_render_hurt_8
-  - first:
-      213: 21300018
-    second: Unity_MC_render_hurt_9
-  - first:
-      213: 21300020
-    second: Unity_MC_render_hurt_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -80,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 550
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -123,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -135,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -150,232 +117,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_0
+      name: Avi_death_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 252
-        width: 128
-        height: 126
+        y: 32
+        width: 227
+        height: 471
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00959241a8e749018f54c1c0ebf0a72
-      internalID: 21300000
+      spriteID: a411a3ea2bdfad1439b635cef764efe8
+      internalID: -394288072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_1
+      name: Avi_death_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
+        x: 253
+        y: 32
+        width: 254
+        height: 454
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a99e126fc0b420cbfdb38882f1f7bf
-      internalID: 21300002
+      spriteID: 8b0e337bb9caf5146b68513059f08ecb
+      internalID: 371925640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_2
+      name: Avi_death_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
+        x: 531
+        y: 32
+        width: 241
+        height: 433
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d390fb0df0e7412e929de89e1cd45af
-      internalID: 21300004
+      spriteID: 13d24ea42687b5f4f930e0843a728233
+      internalID: -1920571329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_3
+      name: Avi_death_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
+        x: 822
+        y: 25
+        width: 303
+        height: 398
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510041152e032408e941313c71fcf3bb
-      internalID: 21300006
+      spriteID: 24baa64ea46b53843945ea78740edaaa
+      internalID: 513185440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_4
+      name: Avi_death_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 128
-        height: 126
+        x: 1149
+        y: 5
+        width: 408
+        height: 366
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd7f66cf3658a4356805c297e515fa0a
-      internalID: 21300008
+      spriteID: 915d20a1539cf7b4aa697d24dbb36334
+      internalID: 844902767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_5
+      name: Avi_death_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
+        x: 1581
+        y: 5
+        width: 434
+        height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f385b3bffb5450f8bf4a948ae80217
-      internalID: 21300010
+      spriteID: feba31876f2e0be43825885eddf6dae1
+      internalID: 1649228023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_6
+      name: Avi_death_9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
+        x: 2031
+        y: 5
+        width: 522
+        height: 502
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5966cddb3fce04dd2b25b32b4f789d57
-      internalID: 21300012
+      spriteID: 27a103d9f9d4de642bb1cf84233150cb
+      internalID: -1443790411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_7
+      name: Avi_death_14
       rect:
         serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
+        x: 3662
+        y: 8
+        width: 783
+        height: 503
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6eff231ca3e4d03b2a43aa205f20ba
-      internalID: 21300014
+      spriteID: 34f66630b8f39894781e4da17a090cae
+      internalID: 143981208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_8
+      name: Avi_death_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 126
+        x: 2583
+        y: 5
+        width: 515
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7d46e3b6d33433a9a55056ea450c99
-      internalID: 21300016
+      spriteID: 4961413c7f14eaa46ad390f7df29a7b2
+      internalID: -421208000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_9
+      name: Avi_death_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 126
+        x: 3123
+        y: 8
+        width: 502
+        height: 503
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9563c28da6d9a455fafe5acb31b074f4
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_10
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5597e0fe0e715481484c70ffbb584ebe
-      internalID: 21300020
+      spriteID: 8b0de11ea86695a46ae405922044a15b
+      internalID: -1246895970
       vertices: []
       indices: 
       edges: []
@@ -383,7 +329,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b6945671aa02a4fd1bbfd02755d1d4c1
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -391,17 +337,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Unity_MC_render_hurt_0: 21300000
-      Unity_MC_render_hurt_1: 21300002
-      Unity_MC_render_hurt_10: 21300020
-      Unity_MC_render_hurt_2: 21300004
-      Unity_MC_render_hurt_3: 21300006
-      Unity_MC_render_hurt_4: 21300008
-      Unity_MC_render_hurt_5: 21300010
-      Unity_MC_render_hurt_6: 21300012
-      Unity_MC_render_hurt_7: 21300014
-      Unity_MC_render_hurt_8: 21300016
-      Unity_MC_render_hurt_9: 21300018
+      Avi_death_0: -394288072
+      Avi_death_1: 371925640
+      Avi_death_10: -692367264
+      Avi_death_12: -421208000
+      Avi_death_13: -1246895970
+      Avi_death_14: 143981208
+      Avi_death_2: -1920571329
+      Avi_death_3: 1874904728
+      Avi_death_4: -1962495057
+      Avi_death_5: 880644054
+      Avi_death_6: 513185440
+      Avi_death_7: 844902767
+      Avi_death_8: 1649228023
+      Avi_death_9: -1443790411
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

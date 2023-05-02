@@ -1412,7 +1412,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 625667352}
   BreakPlatform: {fileID: 931734814}
   DeleteHaze: {fileID: 510719802}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 1
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -2944,7 +2944,7 @@ PrefabInstance:
     - target: {fileID: 7100493938606203442, guid: 83fbde9d7e88e9e4f8966db2db9a7f91,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.68000007
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 7100493938606203442, guid: 83fbde9d7e88e9e4f8966db2db9a7f91,
         type: 3}
@@ -4257,7 +4257,7 @@ PrefabInstance:
     - target: {fileID: 7100493938606203442, guid: 83fbde9d7e88e9e4f8966db2db9a7f91,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4092262
+      value: -2.45
       objectReference: {fileID: 0}
     - target: {fileID: 7100493938606203442, guid: 83fbde9d7e88e9e4f8966db2db9a7f91,
         type: 3}
@@ -4628,7 +4628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.7, y: 3.8, z: -9}
+  m_LocalPosition: {x: -13.37, y: 15.38, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6310,7 +6310,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 2025649473}
   BreakPlatform: {fileID: 777637362}
   DeleteHaze: {fileID: 578384970}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 1
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -7609,11 +7609,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.7
+      value: -13.37
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8
+      value: 15.38
       objectReference: {fileID: 0}
     - target: {fileID: 4520396350849616, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7709,7 +7709,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838423049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
@@ -10329,7 +10329,7 @@ PrefabInstance:
     - target: {fileID: 7231341213626307754, guid: 94849910e2baec3438743e6f90babac9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94849910e2baec3438743e6f90babac9, type: 3}
@@ -12275,7 +12275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331559169}
   m_LocalRotation: {x: -0, y: -0, z: 0.0022407793, w: -0.99999756}
-  m_LocalPosition: {x: 63.9552, y: -3.0018, z: 0}
+  m_LocalPosition: {x: 64.6, y: -3.6, z: 0}
   m_LocalScale: {x: -0.64452624, y: 0.7577657, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13992,7 +13992,7 @@ MonoBehaviour:
   AddPlatform: {fileID: 881121507}
   BreakPlatform: {fileID: 1206597463}
   DeleteHaze: {fileID: 906660131}
-  tokenCollectAudio: {fileID: 8300000, guid: bf527d825758e5b4ca7b69f5a02d9a56, type: 3}
+  tokenCollectAudio: {fileID: 8300000, guid: bb8c674a5dcd39e4fb22881549ac9b07, type: 3}
   randomAnimationStartTime: 1
   idleAnimation:
   - {fileID: 21300000, guid: 3c1619427b3a3024d9cc39bf6f240187, type: 3}
@@ -16969,8 +16969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd30e2b6aff88414a886814c0ee02e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1250752018}
-  swordParent: {fileID: 696275882}
+  controlHit: {fileID: 0}
+  radiusHit: 0
 --- !u!61 &1895188015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17297,7 +17297,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946717923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.7, y: 3.8, z: -9}
+  m_LocalPosition: {x: -13.37, y: 15.38, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -1,40 +1,7 @@
 fileFormatVersion: 2
-guid: e1c7748eb9afd4e608ce8f923cf861dc
+guid: e1db9aad167c46c49970be2c652f10b5
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Unity_MC_render_hurt_0
-  - first:
-      213: 21300002
-    second: Unity_MC_render_hurt_1
-  - first:
-      213: 21300004
-    second: Unity_MC_render_hurt_2
-  - first:
-      213: 21300006
-    second: Unity_MC_render_hurt_3
-  - first:
-      213: 21300008
-    second: Unity_MC_render_hurt_4
-  - first:
-      213: 21300010
-    second: Unity_MC_render_hurt_5
-  - first:
-      213: 21300012
-    second: Unity_MC_render_hurt_6
-  - first:
-      213: 21300014
-    second: Unity_MC_render_hurt_7
-  - first:
-      213: 21300016
-    second: Unity_MC_render_hurt_8
-  - first:
-      213: 21300018
-    second: Unity_MC_render_hurt_9
-  - first:
-      213: 21300020
-    second: Unity_MC_render_hurt_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -80,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 2200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -123,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -135,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -150,181 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_0
+      name: avi_salto_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c00959241a8e749018f54c1c0ebf0a72
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23a99e126fc0b420cbfdb38882f1f7bf
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d390fb0df0e7412e929de89e1cd45af
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510041152e032408e941313c71fcf3bb
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd7f66cf3658a4356805c297e515fa0a
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f385b3bffb5450f8bf4a948ae80217
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_6
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5966cddb3fce04dd2b25b32b4f789d57
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab6eff231ca3e4d03b2a43aa205f20ba
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_8
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 158
         y: 0
-        width: 128
-        height: 126
+        width: 915
+        height: 2044
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7d46e3b6d33433a9a55056ea450c99
-      internalID: 21300016
+      spriteID: 89ec610e61781344ab81ab6be9df5327
+      internalID: 1186108386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_9
+      name: avi_salto_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 1203
         y: 0
-        width: 128
-        height: 126
+        width: 897
+        height: 2044
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9563c28da6d9a455fafe5acb31b074f4
-      internalID: 21300018
+      spriteID: 01b6c82d3b072ac449f2edb42e02c4de
+      internalID: 1214254229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_10
+      name: avi_salto_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 126
+        x: 2231
+        y: 2
+        width: 918
+        height: 1964
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,8 +173,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5597e0fe0e715481484c70ffbb584ebe
-      internalID: 21300020
+      spriteID: 06713366d7311eb44975c2a86921845b
+      internalID: 607294751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_salto_3
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 0
+        width: 915
+        height: 2044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f45cf64f4964343b247a9aa61d5ea4
+      internalID: 49668549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_salto_4
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 2
+        width: 915
+        height: 1964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcf11db45e44004492c4696ef46b467
+      internalID: -325723355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_salto_5
+      rect:
+        serializedVersion: 2
+        x: 5282
+        y: 0
+        width: 895
+        height: 2044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aed088726481504993b0d9c5feeb1fd
+      internalID: -590761330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_salto_6
+      rect:
+        serializedVersion: 2
+        x: 6264
+        y: 0
+        width: 915
+        height: 2044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b65a6bbbb58fa439c8621c02cf9eaf
+      internalID: 2103873855
       vertices: []
       indices: 
       edges: []
@@ -383,7 +266,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b6945671aa02a4fd1bbfd02755d1d4c1
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -391,17 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Unity_MC_render_hurt_0: 21300000
-      Unity_MC_render_hurt_1: 21300002
-      Unity_MC_render_hurt_10: 21300020
-      Unity_MC_render_hurt_2: 21300004
-      Unity_MC_render_hurt_3: 21300006
-      Unity_MC_render_hurt_4: 21300008
-      Unity_MC_render_hurt_5: 21300010
-      Unity_MC_render_hurt_6: 21300012
-      Unity_MC_render_hurt_7: 21300014
-      Unity_MC_render_hurt_8: 21300016
-      Unity_MC_render_hurt_9: 21300018
+      avi_salto_0: 1186108386
+      avi_salto_1: 1214254229
+      avi_salto_2: 607294751
+      avi_salto_3: 49668549
+      avi_salto_4: -325723355
+      avi_salto_5: -590761330
+      avi_salto_6: 2103873855
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

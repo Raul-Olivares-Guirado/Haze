@@ -1,40 +1,7 @@
 fileFormatVersion: 2
-guid: e1c7748eb9afd4e608ce8f923cf861dc
+guid: 8233437cb3b2b104783d47003183e94c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Unity_MC_render_hurt_0
-  - first:
-      213: 21300002
-    second: Unity_MC_render_hurt_1
-  - first:
-      213: 21300004
-    second: Unity_MC_render_hurt_2
-  - first:
-      213: 21300006
-    second: Unity_MC_render_hurt_3
-  - first:
-      213: 21300008
-    second: Unity_MC_render_hurt_4
-  - first:
-      213: 21300010
-    second: Unity_MC_render_hurt_5
-  - first:
-      213: 21300012
-    second: Unity_MC_render_hurt_6
-  - first:
-      213: 21300014
-    second: Unity_MC_render_hurt_7
-  - first:
-      213: 21300016
-    second: Unity_MC_render_hurt_8
-  - first:
-      213: 21300018
-    second: Unity_MC_render_hurt_9
-  - first:
-      213: 21300020
-    second: Unity_MC_render_hurt_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -77,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 935
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -123,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -135,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -150,232 +117,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c00959241a8e749018f54c1c0ebf0a72
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23a99e126fc0b420cbfdb38882f1f7bf
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d390fb0df0e7412e929de89e1cd45af
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510041152e032408e941313c71fcf3bb
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd7f66cf3658a4356805c297e515fa0a
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f385b3bffb5450f8bf4a948ae80217
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_6
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5966cddb3fce04dd2b25b32b4f789d57
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab6eff231ca3e4d03b2a43aa205f20ba
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_hurt_8
+      name: avi_walking2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 126
+        width: 377
+        height: 785
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7d46e3b6d33433a9a55056ea450c99
-      internalID: 21300016
+      spriteID: 79ab2377d00cb634b8d4c827fa744001
+      internalID: -2033660914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_9
+      name: avi_walking2_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 380
         y: 0
-        width: 128
-        height: 126
+        width: 369
+        height: 784
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9563c28da6d9a455fafe5acb31b074f4
-      internalID: 21300018
+      spriteID: 1012be86897a662438d6f6912a06a3c4
+      internalID: -2092838072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_hurt_10
+      name: avi_walking2_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 751
         y: 0
-        width: 128
-        height: 126
+        width: 369
+        height: 785
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5597e0fe0e715481484c70ffbb584ebe
-      internalID: 21300020
+      spriteID: d1d8b3983279ba441b6ee998ef1f8b6d
+      internalID: 15617849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 380
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19946b9f7b81642b38fca96bb5e355
+      internalID: -549008341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_4
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 381
+        height: 784
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc618dd9efdac3439117096d260240a
+      internalID: -1658230304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_5
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 377
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023563846fac360468e719ad7d2bd745
+      internalID: -844846801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_6
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 0
+        width: 379
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f62564cccca4314eb8e7ea4e808408e
+      internalID: 1892539817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_7
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 0
+        width: 379
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74937fc3f2d09a4e99fbfabeec632f7
+      internalID: -1091434963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avi_walking2_8
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 0
+        width: 379
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b700b6e4ebd3d1d419533f7cc08a7004
+      internalID: 31231072
       vertices: []
       indices: 
       edges: []
@@ -383,7 +308,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b6945671aa02a4fd1bbfd02755d1d4c1
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -391,17 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Unity_MC_render_hurt_0: 21300000
-      Unity_MC_render_hurt_1: 21300002
-      Unity_MC_render_hurt_10: 21300020
-      Unity_MC_render_hurt_2: 21300004
-      Unity_MC_render_hurt_3: 21300006
-      Unity_MC_render_hurt_4: 21300008
-      Unity_MC_render_hurt_5: 21300010
-      Unity_MC_render_hurt_6: 21300012
-      Unity_MC_render_hurt_7: 21300014
-      Unity_MC_render_hurt_8: 21300016
-      Unity_MC_render_hurt_9: 21300018
+      avi_walking2_0: -2033660914
+      avi_walking2_1: -2092838072
+      avi_walking2_2: 15617849
+      avi_walking2_3: -549008341
+      avi_walking2_4: -1658230304
+      avi_walking2_5: -844846801
+      avi_walking2_6: 1892539817
+      avi_walking2_7: -1091434963
+      avi_walking2_8: 31231072
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
