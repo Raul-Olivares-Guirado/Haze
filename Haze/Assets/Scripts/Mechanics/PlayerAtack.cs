@@ -9,19 +9,40 @@ public class PlayerAtack : MonoBehaviour
 
     public float radiusHit;
 
-    
+    public float timeToAttack;
+
+    public float nextAttackTime;
+
+    private Animator _animator;
+
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
+
 
     private void Update()
     {
-        if (Input.GetButton("Fire1"))
+
+        if (nextAttackTime > 0)
+        {
+            nextAttackTime -= Time.deltaTime;
+        }
+
+        if (Input.GetButton("Fire1") && nextAttackTime <= 0)
         {
             Attacking();
+            nextAttackTime = timeToAttack;
         }
     }
 
 
     private void Attacking()
     {
+        //Llama al trigger que he creado en el animator del personaje para el ataque
+        _animator.SetTrigger("Attack");
+
         Collider2D[] objects = Physics2D.OverlapCircleAll(controlHit.position, radiusHit);
 
         foreach (Collider2D collision in objects)
