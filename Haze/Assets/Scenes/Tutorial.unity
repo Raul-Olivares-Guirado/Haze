@@ -1954,7 +1954,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0d655f1b4e2d70948831cb8756442af9,
+      objectReference: {fileID: 21300000, guid: 98d8ea258838c8146ba97fe3035448a4,
         type: 3}
     - target: {fileID: 4009130065122623661, guid: 9a1bd12ebb35d4dc997aa0c5494eda9b,
         type: 3}
@@ -11439,8 +11439,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 600731914}
-        m_TargetAssemblyTypeName: SceneLoad, Assembly-CSharp
+      - m_Target: {fileID: 2110646551}
+        m_TargetAssemblyTypeName: Platformer.UI.MainUIController, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
