@@ -3003,7 +3003,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -42.91192, y: 1.653898}
+  m_Offset: {x: -42.972935, y: 1.9768257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3014,7 +3014,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.533676, y: 1.7106032}
+  m_Size: {x: 18.388023, y: 2.3564587}
   m_EdgeRadius: 0
 --- !u!4 &419576588
 Transform:
@@ -3887,7 +3887,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.51, y: -0.37, z: -10}
+  m_LocalPosition: {x: -45.21, y: -0.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9980,7 +9980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   model:
     virtualCamera: {fileID: 1946717924}
-    player: {fileID: 0}
+    player: {fileID: 4520395259311953}
     spawnPoint: {fileID: 1125290083}
     jumpModifier: 0.9
     jumpDeceleration: 0
@@ -11047,7 +11047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946717923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.51, y: -0.37, z: -10}
+  m_LocalPosition: {x: -45.21, y: -0.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12521,6 +12521,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5910737273355185306}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4520395259311953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6022153199224582674, guid: 43fc9cc8529c80941a14b2a976f3a093,
+    type: 3}
+  m_PrefabInstance: {fileID: 5910737273355185306}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709ee11994a2f44658e5fc9887c45081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4964089558793828919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12645,7 +12657,7 @@ PrefabInstance:
     - target: {fileID: 5915240054931053522, guid: 43fc9cc8529c80941a14b2a976f3a093,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.51
+      value: -45.21
       objectReference: {fileID: 0}
     - target: {fileID: 5915240054931053522, guid: 43fc9cc8529c80941a14b2a976f3a093,
         type: 3}
