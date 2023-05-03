@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.99772733
       objectReference: {fileID: 0}
+    - target: {fileID: -7642497708433832734, guid: a5196840b5d1ca841a6b8c2546d0f87a,
+        type: 3}
+      propertyPath: _hurt
+      value: 
+      objectReference: {fileID: 8300000, guid: 1a2d78e78db114d4ca86bef3267522a0, type: 3}
     - target: {fileID: -4748272698667549363, guid: a5196840b5d1ca841a6b8c2546d0f87a,
         type: 3}
       propertyPath: jumpForce
@@ -316,7 +321,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeDamage: {fileID: 0}
-  ouch: {fileID: 8300000, guid: 706764eaa963f34408dda7bafd8ef447, type: 3}
 --- !u!61 &8038944619769607630 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: -8279282872198341809, guid: a5196840b5d1ca841a6b8c2546d0f87a,
@@ -355,3 +359,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider2D: {fileID: 8038944619769607630}
   animator: {fileID: 8416354638409722873}
+  _hurt: {fileID: 8300000, guid: 1a2d78e78db114d4ca86bef3267522a0, type: 3}

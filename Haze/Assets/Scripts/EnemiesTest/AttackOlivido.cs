@@ -17,6 +17,7 @@ public class AttackOlivido : MonoBehaviour
     public Animator animator;
 
     [SerializeField] private AudioClip ouch;
+    [SerializeField] private AudioClip _death;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,6 +25,7 @@ public class AttackOlivido : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerController>().controlEnabled = false;
             collision.gameObject.GetComponent<PlayerController>().audioSource.PlayOneShot(ouch);
+            AudioSource.PlayClipAtPoint(this._death, this.transform.position);
             OlvidoLayer.SetActive(true);
             animator.Play("Baddie-Death");
             Invoke("DestroyEnemy", 0.5f);

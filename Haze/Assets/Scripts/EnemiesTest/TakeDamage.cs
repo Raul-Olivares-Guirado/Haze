@@ -33,7 +33,7 @@ public class TakeDamage : MonoBehaviour
         {
             animator.Play("Player-Death");
             Destroy(heartsImage[0].gameObject);
-            Invoke("PlayerDie", 1f);
+            Invoke("PlayerDie", 1.5f);
             AudioSource.PlayClipAtPoint(this.death, this.transform.position);
         }
 
