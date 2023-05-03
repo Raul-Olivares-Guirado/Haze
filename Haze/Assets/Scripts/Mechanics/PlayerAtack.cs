@@ -15,6 +15,7 @@ public class PlayerAtack : MonoBehaviour
 
     private Animator _animator;
 
+    [SerializeField] private AudioClip _attack;
 
     private void Start()
     {
@@ -42,7 +43,7 @@ public class PlayerAtack : MonoBehaviour
     {
         //Llama al trigger que he creado en el animator del personaje para el ataque
         _animator.SetTrigger("Attack");
-
+        AudioSource.PlayClipAtPoint(this._attack, this.transform.position);
         Collider2D[] objects = Physics2D.OverlapCircleAll(controlHit.position, radiusHit);
 
         foreach (Collider2D collision in objects)

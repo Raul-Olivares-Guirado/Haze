@@ -64,6 +64,7 @@ namespace Platformer.Mechanics
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
                     jumpState = JumpState.PrepareToJump;
                 //Elimino esta parte para que el jugador haga el salto completo
+                //Se puede cambiar segun la necesidad del gameplay
                 /*else if (Input.GetButtonUp("Jump"))
                 {
                     stopJump = true;
