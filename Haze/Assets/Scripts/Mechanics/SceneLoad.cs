@@ -14,29 +14,6 @@ public class SceneLoad : MonoBehaviour
     [SerializeField] AnimationClip fadeOutAnimationClip;
     [SerializeField] AnimationClip fadeInAnimationClip;
 
-    /*
-    private static SceneLoad _instance;
-
-    public static SceneLoad Instance
-    {
-        get { return _instance; }
-        set { _instance = value; }
-    }
-
-    private void Awake()
-    {
-        if (_instance != null)
-        {
-            gameObject.SetActive(false);
-            Destroy(gameObject);
-        }
-        else
-        {
-            _instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }*/
-
     public void Start()
     {
         FadeIn();

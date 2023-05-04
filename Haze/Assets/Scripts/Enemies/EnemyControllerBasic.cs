@@ -21,9 +21,6 @@ public class EnemyControllerBasic : MonoBehaviour
     public Transform[] movement; 
 
 
-
-
-
     // Start is called before the first frame update
     void Start()
     {
