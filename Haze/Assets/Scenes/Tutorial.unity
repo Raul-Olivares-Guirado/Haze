@@ -460,7 +460,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1483521295
   m_SortingLayer: 7
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: df45a23e0ffb45e488da09152061e8d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4209,7 +4209,7 @@ MonoBehaviour:
   dialogText:
   - "Senyal: Com veus quan agafes els records unes plataformes desapareixen, tamb\xE9
     hi ha d'altres que apareixen depenent del record que agafis."
-  - "Senyal: Com veus hi ha una altra fase de boira. Aquest enemic t\xE9 tres fases."
+  - "Senyal: A m\xE9s, hi ha una altra fase de boira. Aquest enemic t\xE9 tres fases."
   - "Senyal: Continua eliminant la boira i aconseguint nous camins recol\xB7lecant
     els records restants."
 --- !u!61 &531757276
@@ -6379,9 +6379,9 @@ MonoBehaviour:
     tens contacte amb ells sentir\xE0s confusi\xF3 amb els teus moviments. "
   - "Senyal: Per desfer aquesta situaci\xF3 has d'aconseguir un token oblit per tornar
     a la normalitat."
-  - 'Senyal: Intenta eliminar-los abans que t''ataquin!!!'
+  - 'Senyal: Intenta eliminar-los abans que t''ataquin!'
   - "Senyal: A m\xE9s aquests enemics tenen dos vides si ataques amb el bast\xF3,
-    \xE9s millor saltar damunt seu per eliminar-los, COMPTE!!!"
+    \xE9s millor saltar damunt seu per eliminar-los, COMPTE!"
 --- !u!1 &1024632940
 GameObject:
   m_ObjectHideFlags: 0
