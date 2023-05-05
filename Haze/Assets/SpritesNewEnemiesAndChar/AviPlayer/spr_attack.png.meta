@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 787af08feeea8c64dbd83c056a6f7db6
+guid: b4c9b4ec57c5d0341b6299e42e0f9ef9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 935
+  spritePixelsToUnits: 260
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: avi_walking_0
+      name: spr_attack_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 8
-        width: 375
-        height: 789
+        x: 91
+        y: 929
+        width: 115
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a188151890cfd6c46bc72c419b541e09
-      internalID: 717009580
+      spriteID: da3b6454569f498408aeadb406ed7944
+      internalID: -836963860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_1
+      name: spr_attack_1
       rect:
         serializedVersion: 2
-        x: 399
-        y: 8
-        width: 375
-        height: 789
+        x: 393
+        y: 930
+        width: 114
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c748f4a1c535745a9e20276c34f8a4
-      internalID: -664051636
+      spriteID: 205e3903ab5c6894ab2085cfbb3f3ec6
+      internalID: 124246633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_2
+      name: spr_attack_2
       rect:
         serializedVersion: 2
-        x: 790
-        y: 8
-        width: 383
-        height: 789
+        x: 695
+        y: 929
+        width: 194
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b501bfdb1cadf0f4396b7ec7661d049b
-      internalID: 987486775
+      spriteID: 4a74e06e52b76544385e1ed3c2bdc453
+      internalID: 1818352010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_3
+      name: spr_attack_3
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 15
-        width: 382
-        height: 782
+        x: 90
+        y: 629
+        width: 194
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d831dfceafe304142b7488a9e651842f
-      internalID: 1344048815
+      spriteID: f974d0c2a870fd3488b345e4849e086f
+      internalID: 605717281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_4
+      name: spr_attack_4
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 13
-        width: 383
-        height: 784
+        x: 393
+        y: 629
+        width: 114
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e32b8d570e5a104a84c4c17fdcded87
-      internalID: 811882922
+      spriteID: 2c3faa7f8a968c14c8f388b61c1cb6ea
+      internalID: 878244943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_5
+      name: spr_attack_5
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 13
-        width: 384
-        height: 784
+        x: 695
+        y: 631
+        width: 115
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,71 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91730372bec5af94c989ff7eff1f20fe
-      internalID: 857788605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: avi_walking_6
-      rect:
-        serializedVersion: 2
-        x: 2390
-        y: 10
-        width: 385
-        height: 787
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6449e6370ce8c2b40949c866b6b8cee9
-      internalID: -641602747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: avi_walking_7
-      rect:
-        serializedVersion: 2
-        x: 2791
-        y: 10
-        width: 387
-        height: 787
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b4c3048419308a4da3bac981ba059cd
-      internalID: 674557982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: avi_walking_8
-      rect:
-        serializedVersion: 2
-        x: 3194
-        y: 12
-        width: 387
-        height: 785
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bd4573da2e044d43a51508867bc2dd2
-      internalID: -342396787
+      spriteID: f8e90d0124afe6c4d9f320375606a45a
+      internalID: -405632715
       vertices: []
       indices: 
       edges: []
@@ -316,15 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      avi_walking_0: 717009580
-      avi_walking_1: -664051636
-      avi_walking_2: 987486775
-      avi_walking_3: 1344048815
-      avi_walking_4: 811882922
-      avi_walking_5: 857788605
-      avi_walking_6: -641602747
-      avi_walking_7: 674557982
-      avi_walking_8: -342396787
+      spr_attack_0: -836963860
+      spr_attack_1: 124246633
+      spr_attack_2: 1818352010
+      spr_attack_3: 605717281
+      spr_attack_4: 878244943
+      spr_attack_5: -405632715
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

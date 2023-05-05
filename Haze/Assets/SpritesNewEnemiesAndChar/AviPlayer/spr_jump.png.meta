@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 787af08feeea8c64dbd83c056a6f7db6
+guid: 5f5474e5e6440994d8ffd3829047301a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 935
+  spritePixelsToUnits: 260
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: avi_walking_0
+      name: spr_jump_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 8
-        width: 375
-        height: 789
+        x: 91
+        y: 931
+        width: 114
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a188151890cfd6c46bc72c419b541e09
-      internalID: 717009580
+      spriteID: cf88dc05453775948991b508ed92321b
+      internalID: 552575870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_1
+      name: spr_jump_1
       rect:
         serializedVersion: 2
-        x: 399
-        y: 8
-        width: 375
-        height: 789
+        x: 387
+        y: 931
+        width: 111
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c748f4a1c535745a9e20276c34f8a4
-      internalID: -664051636
+      spriteID: 64aead19cb35ad64c8352fabe720d74a
+      internalID: -179333072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_2
+      name: spr_jump_2
       rect:
         serializedVersion: 2
-        x: 790
-        y: 8
-        width: 383
-        height: 789
+        x: 689
+        y: 931
+        width: 113
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b501bfdb1cadf0f4396b7ec7661d049b
-      internalID: 987486775
+      spriteID: cb736bdcb98c65b46b0ee7c4655d474b
+      internalID: -236667729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_3
+      name: spr_jump_3
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 15
-        width: 382
-        height: 782
+        x: 91
+        y: 640
+        width: 115
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d831dfceafe304142b7488a9e651842f
-      internalID: 1344048815
+      spriteID: bce34fca87fa4e44db34a7c1226333e6
+      internalID: -183313956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_4
+      name: spr_jump_4
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 13
-        width: 383
-        height: 784
+        x: 394
+        y: 634
+        width: 113
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e32b8d570e5a104a84c4c17fdcded87
-      internalID: 811882922
+      spriteID: 0063ae09789a0464a951ad38a2aa62bb
+      internalID: -1627280793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_5
+      name: spr_jump_5
       rect:
         serializedVersion: 2
-        x: 1990
-        y: 13
-        width: 384
-        height: 784
+        x: 690
+        y: 634
+        width: 111
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91730372bec5af94c989ff7eff1f20fe
-      internalID: 857788605
+      spriteID: 102c74d9d6bbaeb469f129b78fcdb6ae
+      internalID: 365530502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: avi_walking_6
+      name: spr_jump_6
       rect:
         serializedVersion: 2
-        x: 2390
-        y: 10
-        width: 385
-        height: 787
+        x: 91
+        y: 330
+        width: 114
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,50 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6449e6370ce8c2b40949c866b6b8cee9
-      internalID: -641602747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: avi_walking_7
-      rect:
-        serializedVersion: 2
-        x: 2791
-        y: 10
-        width: 387
-        height: 787
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b4c3048419308a4da3bac981ba059cd
-      internalID: 674557982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: avi_walking_8
-      rect:
-        serializedVersion: 2
-        x: 3194
-        y: 12
-        width: 387
-        height: 785
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bd4573da2e044d43a51508867bc2dd2
-      internalID: -342396787
+      spriteID: 5a5d38d06b0f52c468cc4a1ba2e1ff8c
+      internalID: -281078493
       vertices: []
       indices: 
       edges: []
@@ -316,15 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      avi_walking_0: 717009580
-      avi_walking_1: -664051636
-      avi_walking_2: 987486775
-      avi_walking_3: 1344048815
-      avi_walking_4: 811882922
-      avi_walking_5: 857788605
-      avi_walking_6: -641602747
-      avi_walking_7: 674557982
-      avi_walking_8: -342396787
+      spr_jump_0: 552575870
+      spr_jump_1: -179333072
+      spr_jump_2: -236667729
+      spr_jump_3: -183313956
+      spr_jump_4: -1627280793
+      spr_jump_5: 365530502
+      spr_jump_6: -281078493
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

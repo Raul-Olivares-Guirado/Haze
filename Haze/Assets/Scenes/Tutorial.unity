@@ -8722,10 +8722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OlvidoLayer: {fileID: 1427534529}
-  OlvidoTokens:
-  - {fileID: 1838374627}
-  - {fileID: 1913205214}
-  - {fileID: 1041276313}
 --- !u!4 &1427534531
 Transform:
   m_ObjectHideFlags: 0
