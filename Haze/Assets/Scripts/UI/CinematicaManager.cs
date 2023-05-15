@@ -18,5 +18,10 @@ public class CinematicaManager : MonoBehaviour
         {
             _nextScene.LoadNextScene();
         }
+
+        if (Input.anyKey)
+        {
+            _nextScene.LoadNextScene();
+        }
     }
 }
