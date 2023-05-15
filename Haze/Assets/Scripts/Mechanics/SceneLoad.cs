@@ -8,7 +8,7 @@ public class SceneLoad : MonoBehaviour
     [SerializeField]
     private float sceneLoadDelay = 1f;
 
-    private int[] _sceneIndex = {0,1,2,3,4,5};
+    private int[] _sceneIndex = {0,1,2,3,4,5,6};
 
     [SerializeField] Animation fadeAnimation;
     [SerializeField] AnimationClip fadeOutAnimationClip;
@@ -20,13 +20,13 @@ public class SceneLoad : MonoBehaviour
     }
     public void GameOver()
     {
-        DelayedLoadLevel(_sceneIndex[4], sceneLoadDelay);
+        DelayedLoadLevel(_sceneIndex[5], sceneLoadDelay);
         FadeOut();
     }
 
     public void Victory()
     {
-       DelayedLoadLevel(_sceneIndex[3], sceneLoadDelay);
+       DelayedLoadLevel(_sceneIndex[4], sceneLoadDelay);
         FadeOut();
     }
 
@@ -38,7 +38,7 @@ public class SceneLoad : MonoBehaviour
 
     public void Options()
     {
-        DelayedLoadLevel(_sceneIndex[5], sceneLoadDelay);
+        DelayedLoadLevel(_sceneIndex[6], sceneLoadDelay);
         FadeOut();
     }
 
