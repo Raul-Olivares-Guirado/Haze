@@ -17,6 +17,7 @@ namespace Platformer.Mechanics
         public GameObject AddPlatform;
         public GameObject BreakPlatform;
         public GameObject DeleteHaze;
+        public GameObject Particles;
 
         public AudioClip tokenCollectAudio;
         [Tooltip("If true, animation will start at a random position in the sequence.")]
@@ -68,7 +69,7 @@ namespace Platformer.Mechanics
             AddPlatform.SetActive(true);
             BreakPlatform.SetActive(false);
             DeleteHaze.SetActive(false);
-
+            Particles.SetActive(true);
         }
 
         
