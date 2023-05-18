@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-
-
 public class HazeEnemy : MonoBehaviour
 {
 
@@ -39,7 +37,7 @@ public class HazeEnemy : MonoBehaviour
 
         _volume.profile.TryGet(out _vignette);
         _volume.profile.TryGet(out _lensDistortion);
-        _vignette.intensity.value = 1f;
+        _vignette.intensity.value = 0.5f;
         _lensDistortion.active = true;
     }
 

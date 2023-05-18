@@ -726,11 +726,11 @@ RectTransform:
   m_Father: {fileID: 1869122728}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 363}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -36}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &75823883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5822,7 +5822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.4, y: -0.7, z: -10}
+  m_LocalPosition: {x: -27.17, y: 13.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13761,7 +13761,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 31.6, y: 50.01298}
+    oldSize: {x: 31.6, y: 50}
     newSize: {x: 20, y: 3.29}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -14030,12 +14030,12 @@ PrefabInstance:
     - target: {fileID: 5915240054931053522, guid: 43fc9cc8529c80941a14b2a976f3a093,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.4
+      value: -27.17
       objectReference: {fileID: 0}
     - target: {fileID: 5915240054931053522, guid: 43fc9cc8529c80941a14b2a976f3a093,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: 13.19
       objectReference: {fileID: 0}
     - target: {fileID: 5915240054931053522, guid: 43fc9cc8529c80941a14b2a976f3a093,
         type: 3}
@@ -17187,7 +17187,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 46.328003, y: 60.012493}
+    oldSize: {x: 46.328, y: 60.003002}
     newSize: {x: 115.82001, y: 150.03122}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17225,7 +17225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3bcd65df21cc26458b3e592e6612b60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeMax: 3
+  _timeMax: 123
   _timeActual: 0
   timeActive: 0
   time: {fileID: 75823883}
@@ -20070,7 +20070,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 31.6, y: 50.01298}
+    oldSize: {x: 31.6, y: 50}
     newSize: {x: 20, y: 3.29}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -20681,7 +20681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946717923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.4, y: -0.7, z: -10}
+  m_LocalPosition: {x: -27.17, y: 13.19, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
