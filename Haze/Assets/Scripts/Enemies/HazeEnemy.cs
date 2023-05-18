@@ -40,8 +40,7 @@ public class HazeEnemy : MonoBehaviour
         _volume.profile.TryGet(out _vignette);
         _volume.profile.TryGet(out _lensDistortion);
         _vignette.intensity.value = 1f;
-        _vignette.center.value = new Vector2(0.5f, 0.61f);
-        _lensDistortion.intensity.value = 0.7f;
+        _lensDistortion.active = true;
     }
 
     public void PostProInActive()
@@ -51,7 +50,6 @@ public class HazeEnemy : MonoBehaviour
         _volume.profile.TryGet(out _vignette);
         _volume.profile.TryGet(out _lensDistortion);
         _vignette.intensity.value = 0.173f;
-        _vignette.center.value = new Vector2(0.5f, 0.5f);
-        _lensDistortion.intensity.value = 0f;
+        _lensDistortion.active = false;
     }
 }
