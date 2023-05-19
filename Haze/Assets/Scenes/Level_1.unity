@@ -70946,9 +70946,12 @@ MonoBehaviour:
   dialogueText: {fileID: 414296424}
   keyF: {fileID: 1286007105}
   dialogText:
-  - "Senyal: Ben fet, ja recordes on et trobes? Est\xE0s a la teva antiga casa!!"
-  - "Senyal: Continua superant els enemics que trobar\xE0s."
-  - "Senyal: \xC0nims!!!"
+  - '"Un dia, una amiga d''en Rex, Luna, va venir a jugar a casa."'
+  - "\"Quan el teu pare va arribar a casa, va deixar el barret al sof\xE0.\""
+  - "\"Luna es va col\xB7locar el barret al cap. Tots van riure.\""
+  - "Recordo que el barret va quedar ple de p\xE8ls de la Luna."
+  - "La meva mare va haver de rentar el barret perqu\xE8 el meu pare \xE9s al\xB7l\xE8rgic
+    als gats."
 --- !u!212 &1468714846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -83123,9 +83126,11 @@ MonoBehaviour:
   dialogueText: {fileID: 414296424}
   keyF: {fileID: 527428575}
   dialogText:
-  - "Senyal: Ben fet, has aconseguit recordar la zona de la teva inf\xE0ncia."
-  - "Senyal: Cada cop est\xE0s m\xE9s a prop, de recordar tot aquest m\xF3n."
-  - "Senyal: Busca el seg\xFCent record!!!"
+  - '"Una tarda d''estiu, quan vas arribar a casa, el teu millor amic havia mossegat
+    la teva joguina preferida."'
+  - "\"Et vas sentir molt furi\xF3s.\""
+  - "S\xED... Aix\xF2 va succeir."
+  - "Rex, ell... Despr\xE9s d'aix\xF2 vaig estar dos dies sense jugar amb ell."
 --- !u!212 &1658864632
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -95600,10 +95605,11 @@ MonoBehaviour:
   dialogueText: {fileID: 414296424}
   keyF: {fileID: 55283460}
   dialogText:
-  - 'Senyal: Com veus la boira t''impideix passar per aquesta zona.'
-  - "Senyal: Puja per les plataformes fins trobar el record que necessites per recordar
-    la seg\xFCent zona."
-  - "Senyal: Ves amb compte amb els enemics que et pots trobar al teu cam\xED!!"
+  - '"Ens trobem en el passat."'
+  - "\"Aqu\xED \xE9s on vas viure la teva infantessa.\""
+  - "\"Alg\xFA molt especial la va compartir amb tu.\""
+  - "Alg\xFA molt especial? "
+  - Qui podria ser...?
 --- !u!212 &1947067219
 SpriteRenderer:
   m_ObjectHideFlags: 0
