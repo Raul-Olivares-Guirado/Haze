@@ -1824,7 +1824,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENU
+  m_text: "MEN\xDA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9ec707cb50410314c939c50fa6834b66, type: 2}
   m_sharedMaterial: {fileID: 5299442345122152419, guid: 9ec707cb50410314c939c50fa6834b66,
