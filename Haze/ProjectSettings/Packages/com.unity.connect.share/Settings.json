@@ -6,7 +6,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"E:/AADocumentos/AIOC/Projecte Final/Projecte/Haze/Haze/Build/Haze_Web;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"E:/AADocumentos/AIOC/Projecte Final/Projecte/Haze/Haze/Build/Game_Haze_WebGL;E:/AADocumentos/AIOC/Projecte Final/Projecte/Haze/Haze/Build/Haze_Web;;;;;;;;\"}"
             }
         ]
     }
